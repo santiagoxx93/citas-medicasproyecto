@@ -12,7 +12,6 @@ Este proyecto utiliza una arquitectura monolítica moderna (SPA) impulsada por e
 - **Estilos:** Tailwind CSS 
 - **Gráficos:** Chart.js y vue-chartjs para el panel de administración
 - **Base de Datos:** MySQL
-- **Notificaciones:** Sistema de correos (Mailable de Laravel)
 
 ## ✨ Características Principales
 
@@ -20,9 +19,6 @@ Este proyecto utiliza una arquitectura monolítica moderna (SPA) impulsada por e
 *   **Gestión de Horarios (Schedules):** Los administradores pueden definir horas de disponibilidad para recibir citas.
 *   **Reserva de Citas:** Los pacientes pueden agendar consultas médicas de manera intuitiva y rápida.
 *   **Dashboard Administrativo:** Panel de control con gráficos y estadísticas en tiempo real usando Chart.js para medir la actividad del consultorio.
-*   **Notificaciones por Correo Electrónico:** 
-    *   Correos automáticos de confirmación al agendar una cita.
-    *   Correos de recordatorio de citas próximas (con opción de envío manual desde el panel).
 
 ## 🛠️ Instalación Local
 
@@ -45,7 +41,7 @@ Si deseas correr este proyecto localmente, sigue estos pasos:
     ```bash
     cp .env.example .env
     ```
-    Configura tus credenciales de base de datos y de servidor de correos (ej. Mailtrap para pruebas) en el archivo `.env`.
+    Configura tus credenciales de base de datos en el archivo `.env`.
 
 4.  **Generar la key de la aplicación:**
     ```bash
